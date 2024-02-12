@@ -1,0 +1,1104 @@
+<rdf:RDF>
+	<rdf:Description rdf:about="#TextBlock1">
+		<text>DK 678.026: 677.521 : 624.07
+VDI-RICHTLINIEN
+Juli 1989
+VEREIN
+DEUTSCHER
+INGENIEURE
+Entwicklung von Bauteilen
+aus Faser-Kunststoff-Verbund
+Grundlagen
+VDI 2014
+Blatt 1
+Design and construction of FRP components
+(fibre reinforced plastics)
+Basics
+Inhalt Seite
+Vorbemerkung
+	 1
+1	Anwendungsbereich
+2
+2	Abkürzungen, Begriffe und Symbole
+2
+3	Verhalten von Faser-Kunststoff-Verbund 
+4
+4	Eigenschaften der Einzelschicht
+5
+5	Eigenschaften des Schichtenverbundes
+. 9
+6	Ermittlung der ES-Kennwerte
+11
+Vorbemerkung
+Die Richtlinie enthält Empfehlungen für das Entwik-
+keln von Bauteilen aus Faser-Kunststoff-Verbunden
+(FKV), die aus einzelnen faserverstärkten Schichten
+bestehen, bei denen Fasern in einer Kunststoff-Ma¬
+trix eingebettet sind. Die Bauteilentwicklung wird
+dargestellt, wobei die Berechnungen eingehender be¬
+handelt werden. Die RichtUnie will durch Systemati¬
+sieren und Vereinheitlichen der Bauteilauslegung
+und -dimensionierung auch die Zulassungsverfahren
+und die Quahtätssicherung erleichtern. Sie ist in drei
+Teile geghedert:
+Blatt 1 Grundlagen
+Blatt 2 Konzeption und Berechnung
+Blatt 3 Zuverlässigkeit und Sicherheit
+Über die Ausgangswerkstoffe geben Auskunft :
+VDI 2010 Faserverstärkte Reaktionsharzformstoffe
+Blatt 1 Grundlagen, Verstärkungsfasern
+und Zusatzwerkstoffe
+Blatt 2 Ungesättigte Polyesterharze
+(UP-Harze)
+Blatt 3 Epoxidharze (EP-Harze)
+Für Bauteile aus Glasfaser-Kunststoff-Verbund
+(GFK) liegen vor :
+VDI 2011 Faserverstärkte Reaktionsharzformstof¬
+fe; Verarbeitungsverfahren
+VDI 2012 Gestalten von Werkstücken aus GFK
+VDI 2013 Dimensionierung von Bauteilen aus GFK
+V D I - G esel Ischaft Ku nststofftec h n i k
+VDI-Handbuch Kunststofftechnik
+Preisgr. 9
+ 
+Externe elektronische Auslegestelle-Beuth-Friedrich-Althoff-Konsortium Geschäftsstelle am Zuse-Institut Berlin-KdNr.6956955-ID.E7NGPHH296VFRCKFJJKZ1B19.2-2016-05-29 22:00:35
+</text>
+	</rdf:Description>
+	<rdf:Description rdf:about="#TextBlock2">
+		<text>-2-
+VDI 2014 Blatt 1
+Alle Rechte vorbehalten ©Verein Deutscher Ingenieure, Düsseldorf 1 989
+1 Anwendungsbereich
+Die Richtlinie VDI 2014 Bl. 1 beschreibt Eigenschaf¬
+ten von Faser-Kunststoff-Verbunden (FKV), die bei
+der Entwicklung von Bauteilen aus solchen Werk¬
+stoffen zu berücksichtigen sind. Es wird versucht,
+das Verhalten des Schichten-Verbundes (SV) auf die
+Eigenschaften seiner Einzelschichten (ES) zurückzu¬
+führen, wobei diese wiederum durch die gewählte
+Kombination der Ausgangs Werkstoffe Faser und
+Matrix bestimmt werden. Das Verformungs- und
+Bruchverhalten wird durch die Steifigkeits- und Fe¬
+stigkeitskennwerte beschrieben.
+Es wird unterschieden zwischen Grenzzuständen des
+Gebrauchs (z.B. Undichtigkeit) und des Tragverhal¬
+tens (z.B. Festigkeit).
+2 Abkürzungen, Begriffe und Symbole
+2.1 Abkürzungen, Begriffe
+CFK Kohlenstoffaser-Kunststoff (Carbon-Fa¬
+ser-Kunststoff)
+CLT klassische Laminattheorie
+E-Glas Glasfasersorte
+E-Modul Elastizitätsmodul
+ES	Einzelschicht
+EP-Harz Epoxid-Harz
+FB	Faserbruch
+FKV Faser-Kunststoff-Verbund
+FVW Faser-Verbund-Werkstoffe mit beliebiger
+Matrix; bei polymerer Matrix sind ge¬
+bräuchliche Abkürzungen :
+CFK . . . Carbon-F aser-Kunststoff
+GFK . . . Glasfaser-Kunststoff
+G-ES mit einem Gewebe verstärkte Einzel¬
+schicht
+GFK Glasfaser-Kunststoff
+HM Kohlenstoffasersorte (Hochmodul-)
+HST, HT Kohlenstoffasersorte (hochfest)
+IM	Kohlenstoffasersorte (mittlerer Modul)
+ILS interlaminare Schubspannung
+ILSS interlaminare Schubfestigkeit
+P-ES parallelfaserverstärkte Einzelschicht
+PEEK Polyetheretherketon (Thermoplast)
+RFK Aramidfaser-Kunststoff
+R-Glas Glasfasersorte
+S-Glas Glasfasersorte
+SV	Schichtenverbund
+UP-Harz ungesättigtes Polyesterharz
+UHM Kohlenstoffasersorte (Ultra-Hochmodul-)
+W-ES mit Wirrfaser verstärkte Einzelschicht
+ZFB Zwischenfaserbruch
+2.2 Symbole, Zeichen
+E\^ Zug-Elastizitätsmodul der ES parallel zur
+Hauptrichtung (Faserrichtung)
+£"22 Druck-Elastizitätsmodul der ES senkrecht
+zur Hauptrichtung (Faserrichtung)
+Gl2 Schubmodul parallel/senkrecht zur Haupt¬
+richtung
+K	Kompressionsmodul
+ 
+Externe elektronische Auslegestelle-Beuth-Friedrich-Althoff-Konsortium Geschäftsstelle am Zuse-Institut Berlin-KdNr.6956955-ID.E7NGPHH296VFRCKFJJKZ1B19.2-2016-05-29 22:00:35
+</text>
+	</rdf:Description>
+	<rdf:Description rdf:about="#TextBlock3">
+		<text>Alle Rechte vorbehalten ©Verein Deutscher Ingenieure, Düsseldorf 1989
+VDI 2014 Blatt 1
+-3-
+N	Last- bzw. Schwingspielzahl bei Bruch
+n	Last- bzw. Schwingspielzahl
+R	Widerstand, Verhältnis Unter- zu Ober¬
+spannung bei Ermüdung
+Festigkeiten in Faserrichtung (Zug,
+Druck)
+Festigkeiten senkrecht zur Faserrich¬
+tung (Zug, Druck)
+Schubfestigkeit parallel/senkrecht zur
+Faserrichtung
+MIN-KOS
+(ES)
+ES-Querschnitt
+DZ nd
+^22? ^22
+^12
+^11
+*^12
+^22
+^66
+^125 ^21
+(0^ 90°)
+[0/90]s
+eil
+^12
+8
+(P
+w
+Q
+(7
+Nachgiebigkeitskoeffizienten der ES im
+(1 ,2)-Koordinatensystem
+Querkontraktionszahlen, der erste In¬
+dex bezeichnet die Richtung der Kon¬
+traktion, der zweite die der Spannungs¬
+ursache
+1)	Zeit
+2)	Dicke des SV
+Kennzeichnung einer SV-FamiUe
+feste Definition des SV-Aufbaues
+1)	Ausdehnungskoeffizient
+2)	Winkel (Winkel der Faserorientie¬
+rung)
+Zug-Bruchdehnung
+Bruchgleitung
+Dehnung, Verzerrung
+F aservolumenanteil
+F astergewichtsanteil
+Dichte
+Spannung
+LOK-KOS
+(SV)
+Bild 1 . Beispielefür Doppelindizierungen Schnittfläche/Richtung
+a)	Unterscheidung der Koordinatensysteme (KOS)
+b)	Lok- KOS des SV
+c)	Min-KOS der ES
+Mittelebene: z = 0
+Bild 2. Darstellung eines SV (a) und einer ES (b), und zwar
+einer P-ES
+2.3 Indizierung
+Indizes werden in der Regel tiefer gestellt, z.B.
+f Faser
+m Matrix
+M Moisture (Feuchte)
+T Temperatur
+Doppel- und Mehrfachindizes (mehr als zwei) gehor¬
+chen nachstehenden Regeln
+2.3.1	Ort - Ursache,
+wobei unter Ort auch eine Vektorkomponente ver¬
+standen werden kann, z.B. V21
+2.3.2	Schnittfläche - Richtung
+(vgl. Abschnitt 2.2, z.B.
+Schnittflächen stehen, falls nicht anders gekennzeich¬
+net, senkrecht auf einer bevorzugten Richtung, in
+der Regel auf einer Koordinaten-Richtung :
+z.B. cTii und Ti2, siehe auch Bild 1 und Bild 2.
+2.3.3	Zeile - Spalte
+2.3.4	Mehrfachindizierungen
+Die tiefgestellten Indizes folgen den Regeln 2.3.1 und
+2.3.2; die hochgestellten Indizes kennzeichnen den
+Gegenstand (z.B. ^-te Schicht) bzw. die Beanspru¬
+chungsart Zug, Druck, Biegung (z, d, b).
+2.4 Basiswerte, Dimensionen
+Kraft	N
+Länge	mm, m
+Fläche	mm^, m^
+Spannung	N/mm^
+Modul	GPa- 10^MPa = lO^N/mm^
+Dichte	Mg/m^ ( = g/cm^)
+dimensionslos 0,001 oder l%o (ersteres bevorzugt)
+Die Zahlenwerte sollten nach dem metrischen Maß¬
+system möglichst als Vielfaches von 10^, 10^, 10"^,
+10"^ angegeben werden.
+ 
+Externe elektronische Auslegestelle-Beuth-Friedrich-Althoff-Konsortium Geschäftsstelle am Zuse-Institut Berlin-KdNr.6956955-ID.E7NGPHH296VFRCKFJJKZ1B19.2-2016-05-29 22:00:35
+</text>
+	</rdf:Description>
+	<rdf:Description rdf:about="#TextBlock4">
+		<text>-4- VDI 2014 Blatt 1
+Alle Rechte vorbehalten ©Verein Deutscher Ingenieure, Düsseldorf 1 989
+3 Verhalten von Faser-Kunststoff-Verbund
+In einem Faser-Kunststoff-Verbund (FKV) haben
+die Fasern in ihrer Längsrichtung im allgemeinen
+einen sehr viel höheren Elastizitätsmodul und eine
+wesentlich höhere Festigkeit als die Kunststoffma¬
+trix. Hierauf beruht die Verstärkungswirkung der
+Fasern. Ein Schichten verbünd wird aus Einzelschich¬
+ten aufgebaut. Bei hochbeanspruchten Bauteilen
+wird der FKV-Aufbau, das heißt der Faser- und der
+Matrix-Typ, die Schichtenfolge und die jeweihgen
+Faserorientierungen jeweils den besonderen Verhält¬
+nissen des Bauteils angepaßt. Besonders effektiv sind
+dünnwandig gestaltete Bauteile mit zweiachsigen Be¬
+anspruchungen (sogenannten Membranspannungs-
+zuständen), bei denen Beanspruchungen allein durch
+faserparallele Zugspannungen aufgenommen werden
+können.
+In einem mehrschichtigen FKV bilden die Einzel¬
+schichten jeweils die Grundelemente. Sie können für
+sich als homogene, anisotrope Kontinua angesehen
+werden, die im zweiachsigen Beanspruchungszustand
+betrachtet werden dürfen.
+Vernachlässigt man bei Schichten verbunden aus Ein¬
+zelschichten (ES) die Lastaufnahme der Matrix, so
+kann angenommen werden, daß die Beanspruchung
+in grober Näherung durch ein Netz, bestehend aus
+Fasern, aufgenommen wird. Diese Vorgehens weise
+(Netztheorie) ist eine wertvolle Hilfe beim Entwurf
+von FKV-Bauteilen. Eine vollständigere Beschrei¬
+bung des Kontinuums, das heißt unter Einbeziehung
+der Lastaufnahme durch die Matrix, führt zur „klas¬
+sischen Laminattheorie (CLT)", mit der - geeignet
+modifiziert - auch durch Rißbildung geschädigte
+Bauteile beschrieben werden können.
+Einzelschichten (ES) können selbst wiederum aus
+mehreren Lagen (Teilschichten) bestehen und bilden
+für sich strenggenommen einen heterogenen aniso¬
+tropen FKV. In dieser Richtlinie soll eine solche mi¬
+kromechanische Modellvorstellung nur in Ausnah¬
+mefällen herangezogen werden, wenn beispielsweise
+die Verbundeigenschaft aus den Ausgangswerkstof¬
+fen Faser und Matrix oder das Bruchverhalten ge¬
+trennt in Zwischenfaserbruch (ZFB) und Faserbruch
+(FB) vorausberechnet werden soll. Ansonsten wird
+jede ES makromechanisch als Grundelement ideali¬
+siert und für die Berechnung eines SV als homogen
+und anisotrop gesehen.
+Bei dickwandigen FKV-Bauteilen und in Krafteinlei¬
+tungsbereichen kann es erforderlich werden, räum¬
+liche Spannungszustände zu betrachten.
+Bei FKV-Bauteilen lassen sich durch eine rechneri¬
+sche Vorausbestimmung Verformungen sicherer be¬
+stimmen als Versagensgrenzen; deshalb müssen Be¬
+rechnungen oft durch Belastungs- und Bruchversu¬
+che an Probekörpern und Bauteilen gestützt werden.
+Dies gilt besonders bei Stabihtätsversagen.
+Außer der Anisotropie sind bei FKV die Einflüsse
+der Einwirkungszeit von Belastungen und Umge¬
+bungsbedingungen zu beachten. Diese Einflüsse ver¬
+ändern sowohl die Beanspruchung als auch die Ei¬
+genschaften des FKV, zum Beispiel
+—	nimmt die Neigung zum Kriechen und Relaxieren
+bei Annäherung an die Erweichungstemperatur^)
+stark zu,
+—	entstehen Eigenspannungen bei Temperatur- und
+F euchtekonzentrationsänderungen wegen der
+unterschiedlichen Wärme- und Feuchteausdeh¬
+nungskoeffizienten von Fasern und Matrix,
+—	beeinflussen Temperatur, Feuchtigkeit und Che¬
+mikalien auch die Festigkeiten, insbesondere die
+durch die Matrix dominierten (bei Aramidfasern
+auch die Faserfestigkeiten).
+Die Vielfalt der Ausführungsformen des FKV gestat¬
+tet es selten, „Werkstoffdaten" für den gesamten
+Schichtenverbund in der bei metallischen oder ande¬
+ren isotropen Werkstoffen üblichen Form anzuge¬
+ben. Ausgehend von der jeweiligen Einzelschicht
+(ES) können nur in speziellen Fällen für den gesam¬
+ten Schichtenverbund „Werkstoffeigenschaften" an¬
+gegeben werden, z.B. bei symmetrisch aufgebauten
+Schichtenverbunden (SV). Schichten verbünde müs¬
+sen für die jeweilige Aufgabe des zu gestaltenden und
+zu dimensionierenden Bauteils „konstruiert" wer¬
+den. Das Verformungs- und Bruchverhalten solcher
+Schichtenverbunde muß von Fall zu Fall mit Hilfe
+unterschiedlicher Modellvorstellungen oder sonsti¬
+ger erweiterter Theorien sowie unter Heranziehung
+geeigneter Versagenshypothesen und manchmal
+auch durch zusätzliche Versuche ermittelt werden.
+Bei Bauteilen aus FKV, die auf Wirrfasereinzel¬
+schichten (W-ES) aufgebaut sind, können nur über
+eine Variation des Faseranteils in den Einzelschich¬
+ten (ES) Veränderungen der mechanischen Eigen¬
+schaften erzielt werden. Beim Dimensionieren, Be¬
+rechnen und Nachweisen der Zuverlässigkeit können
+solche Bauteile wie aus homogenem, isotropem
+Werkstoff hergestellte behandelt werden. Die dafür
+benötigten Werkstoffkennwerte sind in der Regel
+aufgrund vorhegender Meßergebnisse und Erfahrun¬
+gen in Datenblättern vorgegeben. Kennzeichnende
+Eigenschaften und Rechenwerte von Wirrfaser-
+Kunststoff-Verbunden finden sich z.B. in
+DIN 18820^).
+Erweichungstemperatur: Übergang vom Glaszustand in den
+kautschukelastischen Zustand der Kunststoffmatrix
+DIN 18820: Textilglasverstärkte, ungesättigte Polyesterharze
+für tragende Bauteile
+Teil 1 : Aufbau, Herstellung und Bemessung,
+Teil 2: Aufbau, physikalische Kennwerte
+ 
+Externe elektronische Auslegestelle-Beuth-Friedrich-Althoff-Konsortium Geschäftsstelle am Zuse-Institut Berlin-KdNr.6956955-ID.E7NGPHH296VFRCKFJJKZ1B19.2-2016-05-29 22:00:35
+</text>
+	</rdf:Description>
+	<rdf:Description rdf:about="#TextBlock5">
+		<text>Alle Rechte vorbehalten ©Verein Deutscher Ingenieure, Düsseldorf 1 989
+VDI 2014 Blatt 1 -5-
+Schichten¬
+Verbund
+Bild 3. Schichtenverbund (SV) bestehend aus Einzelschichten
+(ES), welche jeweils aus Faser (Roving, Matte, Gewebe) und
+Matrix (Harz und Härter) bestehen
+e
+Bild 4. Spannungs-Dehnungs-Linien von Epoxidharz und ver¬
+schiedenen Fasern
+4 Eigenschaften der Einzelschicht
+Das mechanische Verhalten des aus mehreren
+Schichten — gleicher oder unterschiedlicher Art —
+bestehenden Schichtenverbundes (SV), Bild 3, wird
+bestimmt durch die Eigenschaften der Einzelschich¬
+ten (ES). Diese wiederum ergeben sich aus den Ei¬
+genschaften ihrer Ausgangswerkstoffe Faser und
+Matrix und deren Verbindung (Grenzfläche) mit¬
+einander. Die ES mit den gebräuchlichsten Verstär¬
+kungsarten sind :
+P-ES parallelfaserverstärkte ES mit parallel in der
+Schichtebene ausgerichteten „endlos" langen
+Fasern, oft auch UD-Schicht genannt,
+G-ES gewebeverstärkte ES mit verwobenen oder ge¬
+wirkten Fasern unterschiedUcher Bindungsar¬
+ten,
+W-ES wirrfaserverstärkte ES mit kurzen (einigen
+Millimeter bis Zentimeter langen), in der
+Schichtebene nahezu ungeordneten Fasern.
+Steifigkeit (E-Modul) und Festigkeit sind bei der pa¬
+rallelfaserverstärkten Einzelschicht (P-ES) in Faser¬
+richtung am größten, senkrecht dazu sehr viel klei¬
+richtung am größten, senkrecht dazu sehr viel klei¬
+ner, Bild 4 und 5. Die entsprechenden Werte der
+wirrfaser- oder gewebeverstärkten Einzelschichten
+liegen dazwischen. E-Modul und Zugfestigkeit ver¬
+schiedener ES parallel zur Faser, bezogen auf das
+spezifische Gewicht, sind dargestellt in Bild 6. Das
+Diagramm macht deutlich, warum FKV besonders
+im Leichtbau so attraktiv ist.
+Bild 5. Typische Spannungs-Dehnungs-Beziehung der P-ES
+4.1 Kurzzeitbelastung der Einzelschicht (ES)
+Steifigkeit und Festigkeit des Faser-Kunststoff-Ver¬
+bundes (FKV) hängen von der Belastungsgeschwin¬
+digkeit und Belastungsdauer ab. Unter Kurzzeitbela¬
+stungen werden solche verstanden, die innerhalb von
+Sekunden bis Minuten zügig aufgebracht und wieder
+entfernt werden. (Für schnelle Belastungen siehe Ab¬
+schnitt 5.5, Stoßbelastung.)
+Parallel zur Faser zugbelastet, verhalten sich alle hier
+betrachteten P-ES praktisch linearelastisch. Aramid-
+und Kohlenstoffasern zeigen bei ansteigender Last
+einen zunehmenden, Glasfasern einen abnehmenden
+E-Modul. Parallel zur Faser druckbelastet weist z.B.
+eine aramidfaserverstärkte P-ES nahe der Versagens¬
+grenze, die bei 16% bis 18% der Zugfestigkeit liegt,
+eine ausgeprägte, degressive Nichtlinearität auf.
+Grundsätzlich sind die faserparallelen Druckfestig¬
+keiten kleiner als die entsprechenden Zugfestigkei¬
+ten.
+Bei quer zur Faser zug- oder druckbelasteten P-ES
+nimmt bei allen Fasern der E-Modul mit zunehmen-
+ 
+Externe elektronische Auslegestelle-Beuth-Friedrich-Althoff-Konsortium Geschäftsstelle am Zuse-Institut Berlin-KdNr.6956955-ID.E7NGPHH296VFRCKFJJKZ1B19.2-2016-05-29 22:00:35
+</text>
+	</rdf:Description>
+	<rdf:Description rdf:about="#TextBlock6">
+		<text>-6-
+VDI 2014 Blatt 1
+Alle Rechte vorbehalten ©Verein Deutscher Ingenieure, Dijsseldorf 1 989
+Oq St
+O AI
+—r-
+5
+10
+—I—
+15
+20
+25
+Spez. E-Modul in 10^ km
+Bild 6. Spezifische Festigkeit R/gg und spezifischer E-Modul E/gg für einige P-ES parallel zur Faserrichtung bei Faservolumenan¬
+teilen von 0,5 bis 0,7
+der Last geringfügig ab. Die Festigkeit quer zur Fa¬
+ser ist bei Druckbelastung meistens höher als bei
+Zugbelastung.
+Parallel/senkrecht zur Faser schubbelastete P-ES
+und G-ES verhalten sich mit allen Faserverstärkun¬
+gen mehr oder weniger nichtlinear, da hierbei die
+Matrixeigenschaften am stärksten zum Tragen kom¬
+men, sie „dominieren". Bei Belastungen quer zur Fa¬
+ser und bei Schub treten im allgemeinen Kohäsivbrü-
+che der Matrix, Adhäsivbrüche der Grenzfläche so¬
+wie in Aramidfasern Kohäsivbrüche in Faserlängs¬
+richtung auf. Diese werden häufig unter dem Begriff
+Zwischenfaserbrüche zusammengefaßt.
+In den Hauptachsen (Faserrichtungen) belastet sind
+gewebeverstärkte Einzelschichten (G-ES) geringfü¬
+gig nichtlinear, wobei in G-ES mit Kohlenstoffaser-
+Geweben wieder ein mit der Last zunehmender E-
+Modul auftritt.
+W-ES weisen trotz ihrer quasi-isotropen Verstär¬
+kung bei allen Grundbelastungsarten (Zug, Druck,
+Schub) Nichthnearitäten auf. Die Druckfestigkeit ist
+im allgemeinen größer als die Zugfestigkeit.
+4.2 Ruhende Langzeitbelastung
+der Einzelschicht
+Bei zeitlich gleichbleibender Belastung nimmt bei
+Kunststoff-Matrizes die Verformung stetig zu, ins¬
+besondere mit steigender Temperatur, zum Teil irre¬
+versibel (viskoplastisches Kriechen). Bei gleichblei¬
+bender Verformung nimmt die Spannung stetig ab
+(Relaxation). Für Fasern besteht ein solches Verhal¬
+ten in vergleichbarer Größenordnung nicht. Kohlen-
+stoffasern kriechen praktisch nicht, Glas- und Ara¬
+midfasern im Vergleich zu Kunststoff-Matrizes sehr
+10-^ 10-'' 10° 10' 10^ 10^ lO'' 10^ 10^
+Zeit t in Stunden (h) —
+Bild 7. Grundsätzliches Zeitstandverhalten von Epoxidharz mit
+verschiedenen Faserverstärkungen bei Raumtemperatur (cpp.fs:
+0,5 bis 0,6; 9?w-es- bis 0,4)
+viel weniger. Das bedeutet, daß bei allen Belastungs¬
+und Verstärkungsarten, bei denen die Matrix eine
+tragende Funktion hat (durch die Matrix dominiert),
+deutüche Kriecherscheinungen auftreten.
+Wo Kriechen auftritt, nimmt auch die vom Werk¬
+stoff konstant ertragbare Last mit der Zeit ab,
+Bild 7.
+Selbst parallel zur Faser zugbelastete P-ES mit Glas¬
+oder Aramidfaserverstärkung ertragen ein Jahr lang
+nur etwa 70% der Kurzzeitbruchlast. Bei durch die
+Matrix dominierten Belastungs- und Verstärkungs¬
+arten ist dieses Verhältnis noch geringer.
+4.3 Veränderliche Langzeltbelastung
+der Einzelschicht
+Aramid- und besonders Kohlenstoffasern weisen bei
+schwingender Belastung (z.B. eine MiUion Lastwech¬
+seln) nur eine geringe Festigkeitsabnahme auf, Glas¬
+fasern dagegen eine sehr viel stärkere. Ähnliches Er-
+ 
+Externe elektronische Auslegestelle-Beuth-Friedrich-Althoff-Konsortium Geschäftsstelle am Zuse-Institut Berlin-KdNr.6956955-ID.E7NGPHH296VFRCKFJJKZ1B19.2-2016-05-29 22:00:35
+</text>
+	</rdf:Description>
+	<rdf:Description rdf:about="#TextBlock7">
+		<text>Alle Rechte vorbehalten ©Verein Deutscher Ingenieure, Düsseldorf 1 989
+VDI 2014 Blatt 1 -7-
+müdungsverhalten wie Glasfasern zeigen Matrizes
+auf Epoxidharzbasis.
+Wie Kurzzeit- und ruhendes Langzeit-Belastungsver¬
+halten wird auch das Ermüdungsverhalten der ES
+(wechselnde Belastung), sofern die Matrix nennens¬
+wert belastet wird, maßgeblich durch diese be¬
+einflußt. Bei der Belastung längs zur Faser hat CFK
+nach 10^ Lastwechseln noch rund 65% bis 85%, ara-
+midfaserverstärktes Epoxid noch rund 70%, GFK
+dagegen nur noch rund 30% der Kurzzeitfestigkeit,
+Bild 8. Schwingende Belastungen mit wechselndem
+Vorzeichen und Druckschwellbelastungen werden
+vom FKV, im Gegensatz zu Metallen, schlechter er¬
+tragen als Zugschwellbelastungen. So kann CFK 10^
+Lastwechsel bei schwellendem Schub (parallel/senk¬
+recht zur Faser) bei einer Belastung von 75% der
+Kurzzeit-Schubfestigkeit, bei wechselndem Schub
+bei einer Belastung von nur 30% der Kurzzeit¬
+Schubfestigkeit ertragen, Bild 9.
+Analoges gilt für G-ES und W-ES.
+4.4 Zweiachsige Beanspruchung
+der Einzelschicht (ES)
+Praktisch wird eine Einzelschicht (ES) im Verband
+eines Schichtenverbundes (SV) immer zweiachsig be¬
+ansprucht. Das dadurch bedingte Verformungsver¬
+halten kann durch die klassische Laminattheorie
+(CLT) berechnet werden (vgl. Abschnitt 3).
+Die Festigkeit kann nicht mehr aus einem einachsi¬
+gen Versuch bestimmt werden. Versuchsergebnisse
+für alle möghchen Kombinationen von Normal- und
+Schubspannungen bereitzustellen ist unmöglich. Die
+rechnerische Abschätzung des Versagend erfolgt des¬
+Bild 9. Qualitative Betrachtung der Ermüdungsfestigkeit bei Schwellbelastung verschiedener P-ES bei Zug quer zur Faser und bei
+Schub, jeweils bei Raumtemperatur (Faservolumenanteil der P-ES: 0,5 bis 0,6)
+ 
+Externe elektronische Auslegestelle-Beuth-Friedrich-Althoff-Konsortium Geschäftsstelle am Zuse-Institut Berlin-KdNr.6956955-ID.E7NGPHH296VFRCKFJJKZ1B19.2-2016-05-29 22:00:35
+</text>
+	</rdf:Description>
+	<rdf:Description rdf:about="#TextBlock8">
+		<text>-8- VDI 2014 Blatt 1
+Alle Rechte vorbehalten ©Verein Deutscher Ingenieure, Düsseldorf 1 989
+halb mit einer Versagenshypothese (Bruch- oder
+Schädigungshypothese). Das Spektrum der am
+häufigsten verwendeten Hypothesen reicht von der
+einfachen Hypothese der maximalen Spannung bzw.
+maximalen Dehnung bis zur Formulierung der zuläs¬
+sigen Spannungskombinationen als Tensorpolynom.
+In der praktischen Anwendung wird es oft als ausrei¬
+chend angesehen, bei P-ES mit Einzelkriterien für
+den Faserbruch und den global zusammengefaßten
+Zwischenfaserbruch zu arbeiten. Einwirkungen
+durch Nachbar schichten werden dabei nicht berück¬
+sichtigt.
+Die obigen Ausführungen gelten für Kurzzeitbela¬
+stungen. Allgemeingültige fundierte Erkenntnisse für
+ruhende und veränderliche Langzeitbelastung sind
+noch nicht bekannt. Man hofft, dies dadurch erfas¬
+sen zu können, daß Versagenshypothesen im Verzer¬
+rungsraum benutzt werden, die jedoch auch erst
+noch aufgestellt werden müssen, wenn darunter mehr
+als die bloße Umrechnung aus dem Spannungsraum
+verstanden wird.
+4.5 Einflüsse von Feuchtigkeit und Temperatur
+Die wichtigsten und immer relevanten Umgebungs¬
+einwirkungen auf FKV sind Umgebungstemperatur
+und Luftfeuchtigkeit. Sie beeinflussen vor allem die
+Kunststoff-Matrix und damit Zustand und Eigen¬
+schaften jeder ES im SV, wobei diese Einwirkungen
+sich je nach Art der Beanspruchung unterschiedhch
+stark auswirken (ruhende und wechselnde Beanspru¬
+chung).
+4.5.1 Temperatur
+Alle Werkstoffe ändern ihr Volumen mit der Tempe¬
+ratur. E-Glasfasern dehnen sich mit der Temperatur
+um 4,8 • 1 0 ~ ^ m/mK, Epoxidharz-Matrizes etwa
+zehnmal so stark. Wenn Harz und Glasfasern im
+Verbund eine Temperaturänderung erfahren, müssen
+die Fasern und das Harz ihre jeweiligen Deformatio¬
+nen einander angleichen, z.B. beim Aushärten wäh¬
+rend des Herstellungsvorganges. Nach dem Abküh¬
+len von der (höheren) Härtetemperatur stehen die
+Glasfasern unter Druck-, die Matrix unter Zugspan¬
+nung. Kohlenstoff- und Aramidfasern haben auf¬
+grund ihres orthotropen Aufbaus auch ein orthotro-
+pes Temperatur-Ausdehnungsverhalten. Beide wer¬
+den in Längsrichtung mit zunehmender Temperatur
+etwas kürzer und haben dafür quer zur Faser einen
+großen positiven Ausdehnungskoeffizienten. Da in
+der P-ES in Faserrichtung die Eigenschaften der Fa¬
+sern dominieren, ergeben sich hierfür, je nach Faser¬
+typ, geringfügig negative oder Null-Ausdehnungs¬
+koeffizienten.
+Kunststoff-Matrizes sind im Vergleich zu den mei¬
+sten Metallen nur bei wesentlich niedrigeren Tempe¬
+raturen einsetzbar. Mit zunehmender Temperatur
+werden Duromere weicher und zersetzen sich schließ¬
+lich. Steifigkeit und Festigkeit nehmen ab, die
+Kriechneigung nimmt zu. Als Orientierungswert für
+die obere Einsatzgrenze kann genannt werden: für
+Polyester ca. 50 bis 90 °C (Martenstemperatur nach
+Richtlinie VDI 2010 Bl. 2), für Epoxide ca. 50 bis
+190 °C (Martenstemperatur nach Richtlinie
+VDI 2010 Bl. 3), für Polyamide ca. 260 °C, für
+PEEK ca. 150 °C. Bei ausgesprochen durch die Ma¬
+trix dominierten Belastungen sind die zulässigen
+Werte noch niedriger anzusetzen.
+Bei tiefen Temperaturen (unter 0 °C bis in den kryo-
+genen Bereich) werden Kunststoffe spröder, glasarti¬
+ger; die Bruchdehnung nimmt ab, der E-Modul zu.
+Deshalb nehmen auch die durch die Matrix domi¬
+nierten E-Moduln des FKV mit abnehmender Tem¬
+peratur zu. Die Kriechraten nehmen ab. Der thermi¬
+sche Ausdehnungskoeffizient der Matrix nimmt mit
+abnehmender Temperatur ebenfalls ab, also auch
+derjenige der P-ES quer zur Faser.
+4.5.2 Feuchtigkeit
+Kunststoff-Matrizes sind wasserdampfdurchlässig
+und lagern Wasser ein. Bei Wasser aufnähme quellen
+sie. Gebräuchliche Epoxidharze vergrößern ihr Volu¬
+men ab einer bestimmten Mindest-Feuchtigkeit um
+bis zu 80% des aufgenommenen Wasservolumens.
+Der maximale Wassergehalt von Verbunden hegt bei
+1 % bis 3%. In GFK ist er am geringsten, im Aramid-
+faser-Kunststoff-Verbund am größten. Die Wasser¬
+aufnahme des PEEK ist gegenüber der von Epoxid¬
+harzen sehr viel geringer.
+Der Einfluß der Feuchtigkeit auf E-Modul und Fe¬
+stigkeit des FKV ist bei Raumtemperatur relativ ge¬
+ring. Für die meisten Harze nehmen mit zunehmen¬
+dem Wassergehalt die Festigkeiten quer zur Faser
+geringfügig ab, längs zur Faser etwas zu. Die Ermü¬
+dungsfestigkeiten bei Raumtemperatur verschlech¬
+tern sich durch Feuchteeinfluß nur geringfügig, bei
+Aramid/Epoxidharz werden sie sogar besser.
+Die Auswirkungen von Temperatur und Feuchtig¬
+keit auf die Eigenschaften der ES beeinflussen sich
+gegenseitig. So wird die Glasübergangs-Temperatur
+mit zunehmender Feuchtigkeit erniedrigt, die Dukti-
+Utät erhöht. Mit zunehmender Temperatur erhöht
+sich die Diffusionsgeschwindigkeit des Wasserdamp¬
+fes.
+Die thermischen Ausdehnungskoeffizienten sind au¬
+ßer für UP-Harz von der Feuchtigkeit praktisch
+unabhängig. Bilden sich Risse in belasteten FKV,
+so erniedrigen sich thermische und Feuchte-Ausdeh¬
+nungskoeffizienten gegenüber dem intakten Ver¬
+bund.
+ 
+Externe elektronische Auslegestelle-Beuth-Friedrich-Althoff-Konsortium Geschäftsstelle am Zuse-Institut Berlin-KdNr.6956955-ID.E7NGPHH296VFRCKFJJKZ1B19.2-2016-05-29 22:00:35
+</text>
+	</rdf:Description>
+	<rdf:Description rdf:about="#TextBlock9">
+		<text>Alle Rechte vorbehalten ©Verein Deutscher Ingenieure, Düsseldorf 1 989
+VDI 2014 Blatt 1 -9-
+5 Eigenschaften des Schichtenverbundes
+5.1 Verformungsverhalten
+Wenn man mehrere dünne Schichten mit Wirrfaser¬
+oder Gewebeverstärkung (gleicher Orientierung)
+übereinanderschichtet, ändern sich die Verhaltens¬
+weisen in der Ebene dadurch nicht wesentlich. Das
+Übereinanderschichten von P-ES in wechselnden
+Richtungen ergibt jedoch ein evtl. ganz andersartiges
+mechanisches Verhalten. Die Einzelschichten sind
+fest miteinander „verklebt" und erfahren daher an
+den Berührungsflächen dieselben Verzerrungen, aber
+nicht zwangsläufig dieselben Spannungen. Im SV
+sind die P-ES immer einem zweiachsigen Spannungs¬
+und Verzerrungszustand unterworfen, auch wenn
+der Verbund einem einachsigen Belastungszustand
+ausgesetzt ist. Zwei Beispiele unterschiedlichen Ver¬
+formungsverhaltens zeigt Bild 10.
+Bild 10. Verfornnungsverhaiten bei einachsiger Zugbeanspru¬
+chung
+a)	ausgeglichener Winkelverbund [ -i- 45°/ — 45°]
+b)	Kreuzverbund [0°/90°]
+Ist der ebene SV so aufgebaut, daß die Mittelfläche
+nicht Symmetrieebene ist, so führen Membran-Bela¬
+stungen in der Ebene immer auch zu Verformungen
+senkrecht dazu, Bild 11 b, 11 c, 11 e.
+a)	b)	c)
+ten Schichtenverbunden
+a)	Dehnung-Scherung
+b)	Dehnung-Biegung
+c)	Dehnung-Drillung
+d)	Biegung-Drillung
+e)	Scherung-Drillung
+Biegung-Scherung (nicht dargestellt)
+5.2 Festigiceitsverhalten
+Die Festigkeit des SV wird bestimmt durch die Fe¬
+stigkeit der ES. Um die Festigkeit der ES im SV
+beurteilen zu können, muß jedoch vom Modell der
+ES als kleinstem sinnvoll zu betrachtenden Baustein
+abgegangen werden. Auch im lokalen Bereich kann
+sich die ES, behindert durch die Nachbarschichten,
+nicht mehr frei verformen. Örtliche Fehlstellen im
+Mikrobereich der ES können durch eine Kraftfluß¬
+umleitung in die Nachbarschichten entlastet werden,
+(örtl. Stützwirkung). Dadurch kann z.B. die effektive
+Querzugfestigkeit der P-ES wesentlich erhöht werden
+— und dies um so stärker, je dünner die einzelne
+Schicht ist (kleiner als 1 mm; werkstoffabhängig)
+und je weniger die Orientierungen benachbarter
+Schichten voneinander abweichen.
+Bei E-Glas kann auch die effektive Schubfestigkeit
+(parallel/senkrecht zur Faser) gegenüber derjenigen
+der isolierten P-ES wesentlich höher liegen.
+5.3 Einfluß von Temperatur und Feuchte
+In G-ES mit ungleichen Faseranteilen in den Haupt¬
+richtungen (Kette, Schuß) und P-ES sind die Tempe¬
+ratur-Ausdehnungskoeffizienten und die Feuchte¬
+Ausdehnungskoeffizienten der ES in der Ebene rich¬
+tungsabhängig. Wenn also ein SV aus solchen ES
+unterschiedHcher Orientierung aufgebaut ist, entste¬
+hen in den ES Spannungen, wenn sich Temperatur
+und Feuchte ändern. Diese Spannungen, die ohne
+mechanische Einwirkungen entstehen, können be¬
+trächtliche Werte annehmen und das Versagen des
+SV besonders an Rändern maßgeblich beeinflussen.
+Spannungen solcher Art, die auch während des Her¬
+stellprozesses entstehen, werden Eigenspannungen
+genannt.
+Da die Temperaturleitung sehr viel schneller vor sich
+geht als die Wasserdampfdiffusion, kann zwar oft
+von einer über die Dicke des SV konstanten Tempe¬
+ratur, aber selten von einer gleichmäßigen Feuchtig¬
+keit ausgegangen werden. Dadurch werden zusätz¬
+liche Eigenspannungen induziert.
+Die Gebrauchstemperatur des Verbundes ist gegen¬
+über derjenigen bei der Herstellung im allgemeinen
+geringer, die Feuchtigkeit höher. Die Feuchte- und
+Aushärtungseigenschaften heben sich dadurch teil¬
+weise gegenseitig auf.
+Ist der Schichtenverbund aus orthotropen ES bezüg-
+hch der SV-Mittelfläche unsymmetrisch aufgebaut,
+wird sich dieser SV aufgrund der erwähnten Span¬
+nungen senkrecht zur Ebene verformen. So bleibt
+eine derart aufgebaute ebene Platte nach Tempera¬
+tur- oder Feuchtigkeitsänderungen nicht mehr eben.
+ 
+Externe elektronische Auslegestelle-Beuth-Friedrich-Althoff-Konsortium Geschäftsstelle am Zuse-Institut Berlin-KdNr.6956955-ID.E7NGPHH296VFRCKFJJKZ1B19.2-2016-05-29 22:00:35
+</text>
+	</rdf:Description>
+	<rdf:Description rdf:about="#TextBlock10">
+		<text>-10- VDI 2014 Blatt 1
+Alle Rechte vorbehalten ©Verein Deutscher Ingenieure, Düsseldorf 1989
+5.4 Alterung des Schichtenverbundes
+Von extremen Belastungen abgesehen, sind die Aus¬
+wirkungen von Temperatur und Feuchtigkeit, auf
+kurze Zeit (einige Tage) gesehen, umkehrbar. Lang¬
+fristig jedoch (einige Jahre bis Jahrzehnte) bewirken
+sie, besonders wenn sie raschem und starkem Wech¬
+sel unterworfen sind (Bewitterung) und zusammen
+mit weiteren Einwirkungen (Licht, UV-Strahlung,
+Medien) auftreten, eine Alterung insbesondere der
+Kunststoff-Matrix. Das bedeutet im allgemeinen
+nach einer anfängUchen Nachhärtung eine von der
+Oberfläche ausgehende Zersetzung und Auflösung
+des Kunststoffes. Für terrestrische Langzeitanwen¬
+dungen mit Freibewitterung werden deshalb übli¬
+cherweise Schutzvorkehrungen (Lackierung) getrof¬
+fen, oder es wird sicherheitshalber eine Abminderung
+der mechanischen Eigenschaften angenommen.
+Schichtenverbunde aus Kohlenstoffasern sind gegen¬
+über solchen aus Glas- und vor allem aus Aramidfa-
+sern sehr viel empfindlicher gegen Schlag- und Stoß¬
+belastungen. Strukturen mit einer ausgeprägten
+Schutzfunktion werden möglichst mit Aramidfaser-
+Geweben hergstellt; die Empfindlichkeit von SV aus
+CFK kann somit durch eine beidseitige G-ES-Au-
+ßenlage aus Glas-oder Aramidfasern reduziert wer¬
+den.
+5.5 Schlag- und Stoßbelastung
+Relativ schnelle und konzentrierte Belastungen wer¬
+den, je nachdem ob sie lokal oder global wirken,
+als Schlag (Impact) oder Stoß bezeichnet. Solche
+Einwirkungen treten hauptsächlich normal zur
+Schichtebene auf und können beim Hantieren (An¬
+stoßen, fallengelassenes Werkzeug), durch Hagel¬
+schlag, Steinschlag und Vogelschlag entstehen. Die
+Energien, die dabei aufgefangen werden müssen, sind
+oft sehr hoch und können von der so belasteten
+Struktur nicht mehr in elastische Verformungsener¬
+gie umgesetzt werden. In Metallblechen treten dann
+zunächst plastische Verformungen auf; die Schale
+bekommt eine Delle. Dadurch ist die Form und da¬
+mit evtl. die Gebrauchstauglichkeit beeinträchtigt,
+aber kaum Steifigkeit und Festigkeit.
+Im FKV bedeuten Schlag- und Stoßbelastungen, die
+das elastisch ertragbare Maß überschreiten, eine Zer¬
+störung. In dünnwandigen Schalen beginnt sie zu¬
+nächst mit den sogenannten Zwischenfaserbrüchen
+in den ES und Delaminationen zwischen den ES.
+Solche können unter ungünstigen Umständen be¬
+trächtliche (bis tellergroße) Ausmaße annehmen, be¬
+vor (bei noch höheren Beanspruchungen) auch Fa¬
+sern brechen und eine Beschädigung auch auf der
+schlagbeanspruchten Seite sichtbar wird. Solche au¬
+ßen kaum sichtbaren Schäden des SV (insbesondere
+Delaminationen) können die örtliche Kurzzeitdruck¬
+festigkeit in der Schalenebene deutlich vermindern.
+In SV mit G-ES treten Faserbrüche bei niedrigeren
+Belastungen auf als in SV aus P-ES. Diese sind an
+der Oberfläche leichter erkennbar. Dadurch ist auch
+die lokale Zugfestigkeit beeinträchtigt. Die (von
+außen nicht sichtbare) innere Schadensausdehnung
+ist allerdings kleiner als bei SV aus P-ES.
+ 
+Externe elektronische Auslegestelle-Beuth-Friedrich-Althoff-Konsortium Geschäftsstelle am Zuse-Institut Berlin-KdNr.6956955-ID.E7NGPHH296VFRCKFJJKZ1B19.2-2016-05-29 22:00:35
+</text>
+	</rdf:Description>
+	<rdf:Description rdf:about="#TextBlock11">
+		<text>Alle Rechte vorbehalten ©Verein Deutscher Ingenieure, Düsseldorf 1989
+VDI 2014 Blatt 1 -11-
+6 Ermittlung der ES-Kennwerte
+Zur Berechnung der Spannungen und Verformung
+der ES im SV werden die Elastizitätskoeffizienten
+(N achgiebigkei ten)
+*^'22 — 1/^22
+Si2= —V2ilEii = —Vi2l^22
+^66 = 1/^12
+benötigt. Dabei bezieht sich bei der orthotropen ES
+die Richtung Index 1 auf die Vorzugsrichtung, das
+ist in der P-ES die Faserrichtung. Die Richtung In¬
+dex 2 steht darauf senkrecht. Bei Wirrfaser-Verstär¬
+kungen gibt es in der Ebene normalerweise keine
+Vorzugsrichtung, die Kennwerte werden dann in al¬
+len Richtungen als gleich angenommen und deshalb
+auch nur für eine Richtung ermittelt.
+Erforderlich sind die Ausdehnungskoeffizienten bei
+Feuchtigkeits- und Temperaturunterschieden.
+6.1 Experimentelle Ermittlung
+Aufgrund des unterschiedlichen nichtlinearen Ver¬
+formungsverhaltens bei Zug- und Druckspannungen
+müssen bei hohen Genauigkeitsanforderungen die
+Nachgiebigkeiten Sn, S12, S22 (für Zug und Druck)
+getrennt ermittelt werden.
+Die mit der klassischen Laminattheorie (CLT, siehe
+Abschnitt 3) berechneten Spannungen und Verzer¬
+rungen in den ES ermöglichen eine Beurteilung des
+Bruchverhaltens des gesamten SV, wofür die Festig¬
+keiten der ES bekannt sein müssen. Das sind in den
+Hauptrichtungen
+i^ii, RI2 und 7^12 bzw. R22
+wobei Ri2 die Schubfestigkeit parallel/senkrecht zur
+Faser ist. Für die Ermittlung der genannten Kenn¬
+werte gibt es noch keine genormten oder allgemein
+verbindlichen Verfahren. Bestehende Normen (ISO,
+EN, DIN, LN, ÖNORM, SIA), in denen die Ermitt¬
+lung einiger Kennwerte beschrieben wird, dienen be¬
+vorzugt der Qualitätskontrolle und sind z.T. nur be¬
+dingt geeignet für eine präzise Ermittlung der Kenn¬
+werte, die in den SV-Berechnungen eingesetzt werden
+müssen. Eine Normung der Versuche zur Kennwert¬
+ermittlung auf europäischer Ebene ist bei Redak¬
+tionsschluß im Gange.
+Im folgenden werden Testmethoden angeführt, die
+einfach und mit noch vertretbaren Ungenauigkeiten
+behaftet sind. Dabei wird im besonderen auf deren
+Problematik eingegangen.
+Da die Eigenschaften von SV und ES u.a. von der
+Fertigungsmethode abhängen, sollten — wenn mög¬
+lich — die Proben zur Kennwertermittlung der ES
+mit derselben Methode hergestellt werden wie das
+beabsichtigte Strukturteil. Das bedeutet insbeson¬
+dere eine Unterscheidung zwischen der Wickeltech¬
+nik, die rohr- oder ringförmige Probekörper nahe¬
+legt, und der Naßgelege- oder Prepreg-Technik, die
+plattenförmige Probekörper aufdrängt. Die gemesse¬
+nen Moduln und Festigkeiten sind Kurzzeit-Kenn¬
+werte, d.h. die Belastungen werden zügig, z.B. inner¬
+halb von zwei Minuten bis zum Bruch, aufgebracht.
+Sie gelten weiterhin nur für bestimmte Klimabedin¬
+gungen. Dabei reicht es nicht aus, daß die Proben
+unter den gegebenen Temperatur- und Luftfeuchte¬
+Bedingungen getestet werden; sie müssen vielmehr
+zuvor „konditioniert" werden, d.h. ihr innerer
+Feuchte- und Temperatur-Zustand muß dem Gleich¬
+gewichtszustand in der vorgesehenen Umgebung ent¬
+sprechen. Diese Konditionierung kann je nach Pro¬
+bendicke mehrere Monate beanspruchen. Gemäß
+EN 62 besteht das Normalklima aus 23 Lufttem¬
+peratur und 50% relativer Feuchte. Andere vorgege¬
+bene Klimabedingungen gelten z.B. in der zivilen
+Luftfahrt (70 °C Lufttemperatur/70% relative
+Feuchte). Es ist zu beachten, daß je nach Art der
+Verteilung von Temperatur und/oder Feuchte (selbst
+bei gleichem Mittelwert) unterschiedliche Versuchs¬
+ergebnisse zu erwarten sind.
+Die gemessenen Kennwerte beziehen sich nur auf ei¬
+nen bestimmten Fasergehalt, der immer mit gemes¬
+sen und angegeben werden muß. Ein Vergleich ver¬
+schiedener ES kann nur bei gleichem Fasergehalt ge¬
+schehen. Die Umrechnung vom tatsächlich gemesse¬
+nen auf einen nominellen Fasergehalt ist in begrenz¬
+tem Umfang möglich, wobei in der P-ES 60 Vol.%,
+in der G-ES 45 Vol.% gängige Nominalwerte sind.
+6.1.1. Zugversuch
+Zur Prüfung von Festigkeit und E-Modul parallel
+zur Faser sollte eine der einschlägigen Normen ange¬
+wendet werden. Für die Prüfung von P-ES in gewik-
+kelten Strukturen empfiehlt sich der sogenannte
+NOL-Ring. E-Modul und Querkontraktionszahl
+sind nicht über den gesamten Belastungsbereich kon¬
+stant. Es wird empfohlen, diese Kennwerte als Se¬
+kante zu messen, z.B. nach DIN 29975 im Bereich
+10 bis 50% der Bruchlast.
+Der Zugversuch quer zur Faser mit ebenen Platten
+wird in DIN 65378 beschrieben. Der Zugversuch
+quer zur Faser an gewickelten Rohrproben ist nicht
+genormt^).
+A. Puck u. H. Schürmann : Die Zug/Druck-Torsionsprüfung an
+rohrförmigen Probekörpem. Kunststoffe 72 (1982) Nr. 9, S. 554/
+61.
+ 
+Externe elektronische Auslegestelle-Beuth-Friedrich-Althoff-Konsortium Geschäftsstelle am Zuse-Institut Berlin-KdNr.6956955-ID.E7NGPHH296VFRCKFJJKZ1B19.2-2016-05-29 22:00:35
+</text>
+	</rdf:Description>
+	<rdf:Description rdf:about="#TextBlock12">
+		<text>-12- VDI 2014 Blatt 1
+Alle Rechte vorbehalten ©Verein Deutscher Ingenieure, Düsseldorf 1 989
+6.1.2	Druckversuch
+Die Messung der Druckfestigkeit parallel zur Faser
+erfolgt in Vorrichtungen, in dessen Proben gegen
+seitliches Ausweichen gestützt werden. Zur Ermitt¬
+lung von E-Modul und Querkonzentrationszahl wird
+empfohlen, den gleichen Versuchsaufbau wie für die
+Prüfung der Festigkeit quer zur Faser zu verwenden.
+Dieser Versuch zur Messung von Festigkeit und Stei¬
+figkeit senkrecht zur Faserrichtung wird in
+DIN 65375 beschrieben. Zur Ermittlung von Steifig¬
+keit und Festigkeit senkrecht zur Faserrichtung in
+Wickelstrukturen bietet sich das einfache Rohr an^).
+Die Druckprüfung gewickelter Rohre oder Ringe in
+Faserrichtung ist aufwendiger.
+6.1.3	Schubversuch
+Versuche mit dem Ziel, ungestört Schubspannungen
+spezieller Orientierung zu ermitteln, sind praktisch
+schwierig durchzuführen. Der fast ideale Schubver¬
+such — Torsion des dünnwandigen Rohres — ist
+für die Prepreg-Strukturen aufwendig und nicht im¬
+mer möglich. Darum wird versucht, Schubmodul und
+Schubfestigkeit durch einfachere Testmethoden zu
+ermitteln, von denen eine Vielzahl vorgeschlagen und
+angewendet werden. Am häufigsten :
++ 45°-Zugversuch
+Dabei wird ein ausgeglichener SV [0°/90°]s unter 45°
+zur Hauptrichtung auf Zug belastet.
+10°-Zugversuch
+Beim schiefwinkUgen Zugversuch der P-ES unter ei¬
+nem Winkel zwischen Faserrichtung und Zugrich¬
+tung von etwa 10° (bis 15° bei Glasfasern) ist die
+Schub Verformung im Verhältnis zur Längs- und
+Querdehnung am größten.
+Für die Ermittlung der Schub-Kennwerte von P-ES
+in Wickelstrukturen empfiehlt sich das dünnwandige
+Rohr^).
+6.1.4	Hygrothermale Ausdehnungs-Koeffizienten
+Die Ausdehnung der ES aufgrund wechselnder Tem¬
+peratur und Feuchtegehalte hat unterschiedliche Ur¬
+sachen, das physikalische Erscheinungsbild ist aber
+sehr ähnlich. Der Temperatur-Ausdehnungskoeffi¬
+zient kann nach DIN 53752 ermittelt werden. Ver¬
+fahren zur Bestimmung des Feuchteausdehnungs¬
+koeffizienten sind vorhanden aber nicht ausreichend
+erprobt.
+6.2 Analytische Ermittlung
+Analytische FormuUerungen werden über die Mo¬
+dellvorstellungen unter Verwendung der Elastizitäts¬
+theorie ermittelt. Diese beruhen auf einer getrennten
+Betrachtung von Faser und Matrix, d.h. einer Be¬
+trachtung der heterogenen Struktur. Man spricht
+von einem mikromechanischen Modell, im Gegen¬
+satz zum makromechanischen, das den Abschnitten
+4 und 5 zugrunde liegt. Das Stoffelement der makro¬
+mechanischen Betrachtung ist die homogene ES.
+Die mikromechanischen Formeln dienen als Interpo¬
+lationshilfe für andere Werte und für eine Eigen¬
+schaftsvorausberechnung bei Änderungen der Aus¬
+gangswerkstoffe und außerdem zur Abschätzung
+von temperatur- und zeitabhängigen Einflüssen. Die
+folgenden teilweise vereinfachten mikromecha¬
+nischen Formeln sind nur ein Teil der sehr umfang¬
+reichen, in der FachUteratur verfügbaren Formeln.
+Diesen hegt ein „ZyhndermodeU""") zugrunde und
+das linear-elastische Verhalten von Faser und Ma¬
+trix.
+Anmerkung: Werte, die auf Grund der nachstehenden Formeln
+bestimmt und für einen Zuverlässigkeitsnachweis verwendet wer¬
+den, werden als Mittelwerte angesehen. Außerdem wird angenom¬
+men, daß der Variationskoeffizient der einzelnen Kennwerte unter
+0,1 liegt.
+Oß	0,6	OJ	0,8
+Faservolumengehalt ^
+Bild 12. Moduln (für GFK (EP/E-Glas)) E22 und G12-G23 (obere
+und untere Grenzen der Ansätze nach dem „Zylindermodell"
+begrenzen andere mikromechanische Ansätze.)
+-h Zylindermodell
+V Zylindermodell (-F-)
+A Zylindermodell ( — )
+X Federmodell
+o Chamis
+A. Puck u. H. Schürmann '. Die Zug/Druck-Torsionsprüfung an
+rohrförmigen Probekörpern. Kunststoffe 72 (1982) Nr. 9, S. 554/
+61.
+'') Zvi Hashin: Theory of fiber reinforced materials, NASA Con-
+tractor Report CR-1974, University of Pennsylvania.
+ 
+Externe elektronische Auslegestelle-Beuth-Friedrich-Althoff-Konsortium Geschäftsstelle am Zuse-Institut Berlin-KdNr.6956955-ID.E7NGPHH296VFRCKFJJKZ1B19.2-2016-05-29 22:00:35
+</text>
+	</rdf:Description>
+	<rdf:Description rdf:about="#TextBlock13">
+		<text>Alle Rechte vorbehalten ©Verein Deutscher Ingenieure, Düsseldorf 1 989
+VDI 2014 Blatt 1
+Mikromechanische Formeln (Kennwerte auch für anisotrope Fasern)
+6.2.1 P-ES (1) durch Faser dominierte Kennwerte (näherungsweise nach der Mischformel):
+q> + E^{l-(p)
+V21='*'31«Vf,21 (P + Vmi^-(P)
+(2) durch Matrix dominierte Kennwerte (G23 hat einen oberen (+) und einen unteren (
+Grenzwert; ersterer wird empfohlen)
+Gi2 = Gm+- ^
+1 l — (p
++ -
+GiV = G^ +
+(p
++	
+rTrT(l-'?')
+G2V = / 1 +
+Gf,23~^?m 2	23 + Gm)
+(1+Cj(p
+, 3ciii-<pr\
+„	iG,,K
+E'y/y —
+^ , 4vfiG23X23
+A.23 + tr23+ _Ell
+E22
+V32=^^
+1
+2G23
+mit	Km, 23
+_ ^m, 23	_	^^f,23
+'"'~K^,23 + 2G^	23 + 2 Gr, 23
+Jf,23	«-l"!"«-!!!
+Ci —	Co —	C'i —
+' Gm	' 1+CiCf ' Ci-1
+(P
+^23 —^m,23"^	.
+1 l—(p
+- + -
+^f,23~^m,23 -^111,23 + ^11
+^
+^f.22
+2(1 — Vf 23 ~2^f,21 ^f, 12)
+K^,23 = K^ + ^ mit
+3	, 3(1 -2vJ
+(3) T emperaturausdehnungskoeffizienten
+OCti 1 — £fliy«Tll+£m(l-'?>)QtT
+•Efll(?> + £m(l-^0)
+®T22 ~	(o^T ^722)
+2(vg.-Vm-l)-Uy
+•"
+l,l<?>(2vi + Vm-l) + (Vm-l) £f22 ^
+.	-Em 1,1 «P .
+ 
+Externe elektronische Auslegestelle-Beuth-Friedrich-Althoff-Konsortium Geschäftsstelle am Zuse-Institut Berlin-KdNr.6956955-ID.E7NGPHH296VFRCKFJJKZ1B19.2-2016-05-29 22:00:35
+</text>
+	</rdf:Description>
+	<rdf:Description rdf:about="#TextBlock14">
+		<text>-14- VDI 2014 Blatt 1
+Alle Rechte vorbehalten ©Verein Deutscher Ingenieure, Düsseldorf 1 989
+(4) Feuchte-Ausdehnungskoeffizienten (Annnahme: Faser nimmt keine Feuchtigkeit auf)
+l-(p
+^M1 1 —
+ai3(l-<P)(l + vJ
+'*'^22 (l_^)_aMii[v„(l-^) + Vf2i(j?]
+6.2.2 W-ES Voraussetzung: X23, V21, G21 und G23 sind aus den P-ES-Formeln zu bestimmen.
+[-^11 +4(1 — V2i)^i^23] [-^11 +(^~^^2i)]^-^23 + ^(Gi2 + G23)
+3 [2£ii 4-(8v2i + 12v2i + 7) ^^23 + ^(^12 + ^23)]
+^11 +^(^^21 +8^21 +3) -^23 — 4(^12 + ^23)
+2[2£ii +(8v2i + 12v2i + 7) X23 + 2(0^2 + G23)]
+G=—-—
+2(1 + v)
+(1)	Näherung mit Vf = v^ = 0,5 (inkompressibel)
+F /pEf {l-(p)E^ 19 Et(l + (p) + E^{l-(p)
+3	3 n EAl-(p) + E^il + <p) "
+c	(l-(p)Gn, 19 Gf(l + (ig) + G^(l-(p)
+3	3 27 Gf(l-(p) + G„(l-,p) "
+(2)	Näherung mit Vf = = 0,25
+_<io£f , Em 272-41 (pH- 90 (j!)^
+-^2dim ^	.
+3 270 l — (p
+^ _(pGf ^ G„ 272-41(?) + 90(?)2
+Wdim—^ l-TZT	^
+3 270 l — (p
+T emper aturausdehnungskoeffizient
+aT=l,61(l + (j9)aTii
+ 
+Externe elektronische Auslegestelle-Beuth-Friedrich-Althoff-Konsortium Geschäftsstelle am Zuse-Institut Berlin-KdNr.6956955-ID.E7NGPHH296VFRCKFJJKZ1B19.2-2016-05-29 22:00:35
+</text>
+	</rdf:Description>
+	<rdf:Description rdf:about="#TextBlock15">
+		<text> 
+Externe elektronische Auslegestelle-Beuth-Friedrich-Althoff-Konsortium Geschäftsstelle am Zuse-Institut Berlin-KdNr.6956955-ID.E7NGPHH296VFRCKFJJKZ1B19.2-2016-05-29 22:00:35
+</text>
+	</rdf:Description>
+	<rdf:Description rdf:about="#TextBlock16">
+		<text> 
+Externe elektronische Auslegestelle-Beuth-Friedrich-Althoff-Konsortium Geschäftsstelle am Zuse-Institut Berlin-KdNr.6956955-ID.E7NGPHH296VFRCKFJJKZ1B19.2-2016-05-29 22:00:35
+</text>
+	</rdf:Description>
+</rdf:RDF>
