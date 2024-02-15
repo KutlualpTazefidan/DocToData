@@ -1,16 +1,20 @@
-from pdf_processing.extractor import PDFExtractor
-from rdf_generation.generator import RDFGenerator
-from chatgpt_integration.chatgpt_client import ChatGPTClient
+# from pdf_processing.extractor import PDFExtractor
+from app.pdf_processing.pdf2html import PDF2XML
+# from rdf_generation.generator import RDFGenerator
+# from chatgpt_integration.chatgpt_client import ChatGPTClient
 
 import os 
 def main():
     input_dir = 'input'
+    xml_output_dir = 'output/xml'
+    html_output_dir = 'output/html'
     rdf_output_dir = 'output/rdf'
     analysis_output_dir = 'output/analysis'  # Directory for saving analysis results
 
-    extractor = PDFExtractor()
-    rdf_generator = RDFGenerator()
-    chatgpt_client = ChatGPTClient()
+    # extractor = PDFExtractor()
+    pdf2xml = PDF2XML()
+    # rdf_generator = RDFGenerator()
+    # chatgpt_client = ChatGPTClient()
 
     # Ensure output directories exist
     os.makedirs(rdf_output_dir, exist_ok=True)
@@ -20,12 +24,16 @@ def main():
         if filename.endswith('.pdf'):
             pdf_path = os.path.join(input_dir, filename)
             print(f"Processing {filename}...")
-            
+
+            # Converting pdf to xml
+            xml = pdf2xml.convert_pdf_to_html(pdf_path,xml_output_dir,html_output_dir,filename)
+        
             # Extract text and images from PDF
-            text_blocks = extractor.extract_text(pdf_path)
-            images = extractor.extract_images(pdf_path)
+            # text_blocks = extractor.extract_text(pdf_path)
+            # images = extractor.extract_images(pdf_path)
+            # xml_blocks = extractor.convert_pdf_to_xml(pdf_path)
             
-            print("text:",text_blocks)
+            # print("text:",text_blocks)
             # print("images:",images)
             # # Generate RDF for text blocks and images
             # rdf_filename = filename.replace('.pdf', '.rdf')
