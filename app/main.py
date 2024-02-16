@@ -1,5 +1,5 @@
 # from pdf_processing.extractor import PDFExtractor
-from app.pdf_processing.pdf2html import PDF2XML
+from pdf_processing.pdf2html import PDF2HTML
 # from rdf_generation.generator import RDFGenerator
 # from chatgpt_integration.chatgpt_client import ChatGPTClient
 
@@ -10,9 +10,11 @@ def main():
     html_output_dir = 'output/html'
     rdf_output_dir = 'output/rdf'
     analysis_output_dir = 'output/analysis'  # Directory for saving analysis results
-
+    optimize_text=1
+    no_frames=True
+    font_format="woff"
     # extractor = PDFExtractor()
-    pdf2xml = PDF2XML()
+    pdf2html = PDF2HTML()
     # rdf_generator = RDFGenerator()
     # chatgpt_client = ChatGPTClient()
 
@@ -26,7 +28,13 @@ def main():
             print(f"Processing {filename}...")
 
             # Converting pdf to xml
-            xml = pdf2xml.convert_pdf_to_html(pdf_path,xml_output_dir,html_output_dir,filename)
+            html = pdf2html.convert_pdf_to_html(
+                pdf_path,
+                html_output_dir,
+                filename,
+                optimize_text,
+                no_frames,
+                font_format)
         
             # Extract text and images from PDF
             # text_blocks = extractor.extract_text(pdf_path)
