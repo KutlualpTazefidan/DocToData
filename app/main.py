@@ -1,9 +1,11 @@
 # from pdf_processing.extractor import PDFExtractor
-from pdf_processing.pdf2html import PDF2HTML
+# from pdf_processing.pdf2html import PDF2HTML
+from pdf_processing.extractor import PDFExtractor
+from pdf_processing.store_information import StoreInformation
 # from rdf_generation.generator import RDFGenerator
 # from chatgpt_integration.chatgpt_client import ChatGPTClient
-
 import os 
+
 def main():
     input_dir = 'input'
     xml_output_dir = 'output/xml'
@@ -14,7 +16,9 @@ def main():
     no_frames=True
     font_format="woff"
     # extractor = PDFExtractor()
-    pdf2html = PDF2HTML()
+    # pdf2html = PDF2HTML()
+    extractor = PDFExtractor()
+    store_info= StoreInformation('output/textblocks/')
     # rdf_generator = RDFGenerator()
     # chatgpt_client = ChatGPTClient()
 
@@ -27,14 +31,31 @@ def main():
             pdf_path = os.path.join(input_dir, filename)
             print(f"Processing {filename}...")
 
-            # Converting pdf to xml
-            html = pdf2html.convert_pdf_to_html(
-                pdf_path,
-                html_output_dir,
-                filename,
-                optimize_text,
-                no_frames,
-                font_format)
+
+            # Extract text and images from PDF
+            text_blocks = extractor.extract_text(pdf_path)
+            images = extractor.extract_images(pdf_path)
+
+            # Specify the filename for this set of text blocks
+            filename = 'example_text_blocks.txt'
+
+            # Save the text blocks as paragraphs
+            text_blocks_cleaned = store_info.clean_text_and_keep_headers(text_blocks)
+            store_info.save_as_paragraphs(text_blocks_cleaned, filename)
+
+            # for i in range(len(text_blocks)):
+            # for i in range(3,4):
+            #     print(f"text block {i}:",text_blocks[i])
+
+
+            # # Converting pdf to html
+            # html = pdf2html.convert_pdf_to_html(
+            #     pdf_path,
+            #     html_output_dir,
+            #     filename,
+            #     optimize_text,
+            #     no_frames,
+            #     font_format)
         
             # Extract text and images from PDF
             # text_blocks = extractor.extract_text(pdf_path)
