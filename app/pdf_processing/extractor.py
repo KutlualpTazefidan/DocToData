@@ -1,8 +1,9 @@
 import fitz  # PyMuPDF
 from PIL import Image
 import io
+import os
 
-class PDFExtractor:
+class TextExtractor:
     def extract_text(self, pdf_path):
         """
         Extracts all text from a given PDF file using PyMuPDF.
