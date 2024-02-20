@@ -10,6 +10,7 @@ def main():
     input_dir = 'input'
     xml_output_dir = 'output/xml'
     html_output_dir = 'output/html'
+    json_output_dir = 'output/json'
     rdf_output_dir = 'output/rdf'
     analysis_output_dir = 'output/analysis'  # Directory for saving analysis results
     optimize_text=1
@@ -18,7 +19,7 @@ def main():
     # extractor = PDFExtractor()
     # pdf2html = PDF2HTML()
     extractor = PDFExtractor()
-    store_info= StoreInformation('output/textblocks/')
+    store_info= StoreInformation('output/json/')
     # rdf_generator = RDFGenerator()
     # chatgpt_client = ChatGPTClient()
 
@@ -36,12 +37,9 @@ def main():
             text_blocks = extractor.extract_text(pdf_path)
             images = extractor.extract_images(pdf_path)
 
-            # Specify the filename for this set of text blocks
-            filename = 'example_text_blocks.txt'
-
             # Save the text blocks as paragraphs
-            text_blocks_cleaned = store_info.clean_text_and_keep_headers(text_blocks)
-            store_info.save_as_paragraphs(text_blocks_cleaned, filename)
+            pdf_content_dict = store_info.clean_text_and_keep_headers(text_blocks)
+            store_info.save_dict(pdf_content_dict, filename)
 
             # for i in range(len(text_blocks)):
             # for i in range(3,4):
